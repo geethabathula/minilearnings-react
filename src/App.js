@@ -35,7 +35,9 @@ export default App;
 
 
 /**
- *function App() {
+ *
+import ChangeHeader from "./ChangeHeader"
+function App() {
     const [count, setCount] = useState(0);
     const handleCount = () => {
         setCount(count + 1);
