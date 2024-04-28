@@ -1,10 +1,19 @@
-import { useState } from "react";
-import ProductPage from "./ProductPage";
-import AddressInfo from "./AddressInfo";
-import Summary from "./Summary";
 import './index.css';
 
 function App() {
+  return <>
+
+  </>
+}
+export default App;
+
+/**
+ * For stateuplifting
+ * import { useState } from "react";
+import ProductPage from "./ProductPage";
+import AddressInfo from "./AddressInfo";
+import Summary from "./Summary";
+ * function App() {
   const [product, setProduct] = useState("");
   const [quantity, setQuantity] = useState(1);
 
@@ -33,6 +42,7 @@ function App() {
 
 export default App;
 
+ */
 
 /**
  *
