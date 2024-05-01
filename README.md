@@ -12,6 +12,7 @@ The purpose of this repository is to serve as a personal learning resource where
 - State Uplifting
   (declaring the state in parent component and then pass it to the child components or siblings components)
 - Component Composition (sending props to nested components via {children})
+- Accessing Movie Database via useEffect Hook (implementing cleanup function via AbortController API)
 
 ---
 

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid red;
+}
