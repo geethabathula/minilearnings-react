@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './index.css';
 
+/*
 //Helping Ammuu on updating a selectvalue
 function App() {
   const [formData, setFormData] = useState({ selectValue: "", textValue: "hi" });
@@ -40,7 +41,7 @@ function App() {
   );
 }
 export default App;
-
+*/
 /**
  * For stateuplifting
  * import { useState } from "react";

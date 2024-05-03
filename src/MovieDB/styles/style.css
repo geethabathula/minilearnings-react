@@ -1,21 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.heading img {
+  height: 50px;
+  width: 80px;
+}
+
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   margin: 1rem;
   padding: 1rem;
 }
 
-.loading {
+.form input {
+  height: 30px;
+  width: 180px;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.loadingcontainer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.loading {
+  height: 90px;
+  width: 90px;
 }
 
 .movie-data {
@@ -26,4 +65,9 @@
   margin: 1rem;
   padding: 1rem;
   border: 1px solid red;
+}
+
+.movie-data img {
+  height: 100px;
+  width: 100px;
 }
