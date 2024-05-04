@@ -61,6 +61,8 @@ function App() {
 export default App;
 ```
 
+- useRef with current property
+
 ---
 
 Happy learning, and enjoy exploring the world of React!

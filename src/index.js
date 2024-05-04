@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MovieReplica from './MovieDB/MovieReplica';
+// import MovieReplica from './MovieDB/MovieReplica';
+import Geolocation from './Geolocation/Geolocation';
 // import App from './App';
 // import Modal, { Success, Error, Warning } from './ComponentComposition/Modal';
 // import Reactbts from './ReactBTS/Reactbts';
@@ -14,7 +15,8 @@ root.render(
     <Modal children={<Warning />} />
     <Modal children={<Error />} /> */}
     {/* <Reactbts /> */}
-    <MovieReplica />
+    {/* <MovieReplica /> */}
+    <Geolocation />
   </React.StrictMode>
 );
 
